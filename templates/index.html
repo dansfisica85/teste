@@ -10,11 +10,11 @@
 <main class="card">
     <h1>{{ titulo }}</h1>
     <p><strong>Aluno:</strong> {{ usuario.nome }}</p>
-    <p><strong>Curso:</strong> {{ suario.curso}}</p>
+    <p><strong>Curso:</strong> {{ usuario.curso}}</p>
     <p><strong>Nota final:</strong> {{ usuario.nota }}</p>
 
     <div class="tag {{ 'aprovado' if resultado == 'Aprovado' else 'reprovado' }}">
-       Status: {{ resultado }}
+       status: {{ resultado }}
     </div>
 </main>
    

@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     #dados que serão calculados em Python
     titulo_pagina = "Dashboard de Demonstração"
-    aluno = {"nome": "Lucas", "curso": "Analista de Sistemas", "nota": 9.5}
+    aluno = {"nome": "Ana Carolina", "curso": "Analista de Sistemas", "nota": 9.5}
     status = "Aprovado" if aluno["nota"] >= 5 else "Reprovado"
 
     #Essa parte envia as imnformações para o template HTML
